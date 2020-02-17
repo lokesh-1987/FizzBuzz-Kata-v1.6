@@ -54,4 +54,9 @@ public class FizzBuzzTest {
     public void fizzBuzzShouldReturnFizzBuzzFor15() {
         assertThat(fizzBuzz.getFizzBuzz(15), is(FIZZ_BUZZ));
     }
+
+    @Test
+    public void fizzBuzzShouldReturnFizzBuzzFor30() {
+        assertThat(fizzBuzz.getFizzBuzz(30), is(FIZZ_BUZZ));
+    }
 }

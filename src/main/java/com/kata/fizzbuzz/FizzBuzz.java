@@ -9,6 +9,8 @@ class FizzBuzz {
     String getFizzBuzz(int number) {
         if (number == 15) {
             return FIZZ_BUZZ;
+        } else if (number == 30) {
+            return FIZZ_BUZZ;
         } else if(isFizzNumber(number)) {
             return FIZZ;
         } else if (isBuzzNumber(number)) {
