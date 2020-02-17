@@ -8,10 +8,14 @@ class FizzBuzz {
     String getFizzBuzz(int number) {
         if(isFizzNumber(number)) {
             return FIZZ;
-        } else if (number %  5 == 0) {
+        } else if (isBuzzNumber(number)) {
             return BUZZ;
         }
         return String.valueOf(number);
+    }
+
+    private boolean isBuzzNumber(int number) {
+        return number %  5 == 0;
     }
 
     private boolean isFizzNumber(int number) {
