@@ -1,9 +1,10 @@
 package com.kata.fizzbuzz;
 
-import org.hamcrest.core.Is;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
 
 public class FizzBuzzTest {
 
@@ -16,11 +17,11 @@ public class FizzBuzzTest {
 
     @Test
     public void fizzBuzzShouldReturn1For1() {
-        Assert.assertThat(fizzBuzz.getFizzBuzz(1), Is.is(1));
+        assertThat(fizzBuzz.getFizzBuzz(1), is(1));
     }
 
     @Test
     public void fizzBuzzShouldReturn2For2() {
-        Assert.assertThat(fizzBuzz.getFizzBuzz(2), Is.is(2));
+        assertThat(fizzBuzz.getFizzBuzz(2), is(2));
     }
 }
