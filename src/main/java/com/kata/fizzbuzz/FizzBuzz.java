@@ -7,9 +7,7 @@ class FizzBuzz {
     private static final String FIZZ_BUZZ = "FizzBuzz";
 
     String getFizzBuzz(int number) {
-        if (number == 15) {
-            return FIZZ_BUZZ;
-        } else if (number == 30) {
+        if (number % (3 *5) == 0) {
             return FIZZ_BUZZ;
         } else if(isFizzNumber(number)) {
             return FIZZ;
