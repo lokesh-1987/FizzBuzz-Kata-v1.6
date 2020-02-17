@@ -10,6 +10,8 @@ class FizzBuzz {
             return FIZZ;
         } else if (number == 5) {
             return BUZZ;
+        } else if (number == 10){
+            return BUZZ;
         }
         return String.valueOf(number);
     }
