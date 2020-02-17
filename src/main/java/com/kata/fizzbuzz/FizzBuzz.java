@@ -8,9 +8,7 @@ class FizzBuzz {
     String getFizzBuzz(int number) {
         if(isFizzNumber(number)) {
             return FIZZ;
-        } else if (number == 5) {
-            return BUZZ;
-        } else if (number == 10){
+        } else if (number %  5 == 0) {
             return BUZZ;
         }
         return String.valueOf(number);
