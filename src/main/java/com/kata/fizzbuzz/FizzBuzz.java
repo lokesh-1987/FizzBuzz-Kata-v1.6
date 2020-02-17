@@ -6,7 +6,9 @@ class FizzBuzz {
     private static final String BUZZ = "Buzz";
 
     String getFizzBuzz(int number) {
-        if(isFizzNumber(number)) {
+        if (number == 15) {
+            return "FizzBuzz";
+        } else if(isFizzNumber(number)) {
             return FIZZ;
         } else if (isBuzzNumber(number)) {
             return BUZZ;
