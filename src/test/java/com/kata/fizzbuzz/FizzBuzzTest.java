@@ -12,6 +12,7 @@ public class FizzBuzzTest {
     private static final String TWO = "2";
     private static final String FIZZ = "Fizz";
     private static final String BUZZ = "Buzz";
+    private static final String FIZZ_BUZZ = "FizzBuzz";
     private FizzBuzz fizzBuzz;
 
     @Before
@@ -51,6 +52,6 @@ public class FizzBuzzTest {
 
     @Test
     public void fizzBuzzShouldReturnFizzBuzzFor15() {
-        assertThat(fizzBuzz.getFizzBuzz(15), is("FizzBuzz"));
+        assertThat(fizzBuzz.getFizzBuzz(15), is(FIZZ_BUZZ));
     }
 }
