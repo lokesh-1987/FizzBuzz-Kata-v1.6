@@ -3,12 +3,13 @@ package com.kata.fizzbuzz;
 class FizzBuzz {
 
     private static final String FIZZ = "Fizz";
+    private static final String BUZZ = "Buzz";
 
     String getFizzBuzz(int number) {
         if(isFizzNumber(number)) {
             return FIZZ;
         } else if (number == 5) {
-            return "Buzz";
+            return BUZZ;
         }
         return String.valueOf(number);
     }
