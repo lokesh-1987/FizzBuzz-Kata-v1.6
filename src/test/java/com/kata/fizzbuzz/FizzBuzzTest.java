@@ -11,4 +11,10 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assert.assertThat(fizzBuzz.getFizzBuzz(1), Is.is(1));
     }
+
+    @Test
+    public void fizzBuzzShouldReturn2For2() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        Assert.assertThat(fizzBuzz.getFizzBuzz(2), Is.is(2));
+    }
 }
