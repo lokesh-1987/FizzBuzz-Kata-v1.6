@@ -1,7 +1,7 @@
 package com.kata.fizzbuzz;
 
-public class FizzBuzz {
-    public int getFizzBuzz(int number) {
+class FizzBuzz {
+    int getFizzBuzz(int number) {
         return 1;
     }
 }
