@@ -17,11 +17,11 @@ public class FizzBuzzTest {
 
     @Test
     public void fizzBuzzShouldReturn1For1() {
-        assertThat(fizzBuzz.getFizzBuzz(1), is(1));
+        assertThat(fizzBuzz.getFizzBuzz(1), is("1"));
     }
 
     @Test
     public void fizzBuzzShouldReturn2For2() {
-        assertThat(fizzBuzz.getFizzBuzz(2), is(2));
+        assertThat(fizzBuzz.getFizzBuzz(2), is("2"));
     }
 }

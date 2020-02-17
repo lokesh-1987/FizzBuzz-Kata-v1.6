@@ -1,7 +1,7 @@
 package com.kata.fizzbuzz;
 
 class FizzBuzz {
-    int getFizzBuzz(int number) {
-        return number;
+    String getFizzBuzz(int number) {
+        return String.valueOf(number);
     }
 }
